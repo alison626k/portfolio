@@ -2886,6 +2886,8 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding-left: 3.25em;
 		position: relative;
+ left:40%;
+ right:40%;
 	}
 
 		.contact-method .icon {
@@ -3689,7 +3691,9 @@ input, select, textarea {
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
-		padding-left: 0;
+                        margen: 0 ,
+		padding-left: 50%;
+		padding-righ: 50%;
 	}
 
 		#footer .copyright li {
@@ -3705,6 +3709,7 @@ input, select, textarea {
 				border-left: 0;
 				margin-left: 0;
 				padding-left: 0;
+				padding-right: 0;
 			}
 
 	@media screen and (max-width: 480px) {
@@ -3713,7 +3718,7 @@ input, select, textarea {
 			display: block;
 			border-left: 0;
 			margin-left: 0;
-			padding-left: 0;
+			padding-left: 50%;
 			line-height: inherit;
 		}
 
